@@ -4,4 +4,4 @@ Add these files to your fail2ban conf directory to start banning script kiddies 
 
 You may need to change paths in jail.d/*.conf files, depending on where your apache logs live.
 
-Don't forget to cron iptables-save > /some/backup/file, and add an import /some/backup/file to system init! 
+Also included: one-line scripts to preserve your iptables rules across reboots. 
